@@ -1,0 +1,11 @@
+C:\Users\ngreb\OneDrive\Робочий стіл\Visual Studio\C#\BarBreak\BarBreak.Core\obj\Debug\net8.0\BarBreak.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ngreb\OneDrive\Робочий стіл\Visual Studio\C#\BarBreak\BarBreak.Core\obj\Debug\net8.0\BarBreak.Core.AssemblyInfoInputs.cache
+C:\Users\ngreb\OneDrive\Робочий стіл\Visual Studio\C#\BarBreak\BarBreak.Core\obj\Debug\net8.0\BarBreak.Core.AssemblyInfo.cs
+C:\Users\ngreb\OneDrive\Робочий стіл\Visual Studio\C#\BarBreak\BarBreak.Core\obj\Debug\net8.0\BarBreak.Core.csproj.CoreCompileInputs.cache
+C:\Users\ngreb\OneDrive\Робочий стіл\Visual Studio\C#\BarBreak\BarBreak.Core\bin\Debug\net8.0\BarBreak.Core.deps.json
+C:\Users\ngreb\OneDrive\Робочий стіл\Visual Studio\C#\BarBreak\BarBreak.Core\bin\Debug\net8.0\BarBreak.Core.dll
+C:\Users\ngreb\OneDrive\Робочий стіл\Visual Studio\C#\BarBreak\BarBreak.Core\bin\Debug\net8.0\BarBreak.Core.pdb
+C:\Users\ngreb\OneDrive\Робочий стіл\Visual Studio\C#\BarBreak\BarBreak.Core\obj\Debug\net8.0\BarBreak.Core.dll
+C:\Users\ngreb\OneDrive\Робочий стіл\Visual Studio\C#\BarBreak\BarBreak.Core\obj\Debug\net8.0\refint\BarBreak.Core.dll
+C:\Users\ngreb\OneDrive\Робочий стіл\Visual Studio\C#\BarBreak\BarBreak.Core\obj\Debug\net8.0\BarBreak.Core.pdb
+C:\Users\ngreb\OneDrive\Робочий стіл\Visual Studio\C#\BarBreak\BarBreak.Core\obj\Debug\net8.0\ref\BarBreak.Core.dll
