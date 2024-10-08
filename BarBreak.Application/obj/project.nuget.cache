@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2mzxt9PzWjE=",
+  "dgSpecHash": "UE/VxFxfu5Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\olexi\\OneDrive\\Робочий стіл\\BarBreak\\BarBreak\\BarBreak.Application\\BarBreak.Application.csproj",
+  "projectFilePath": "E:\\pr_eng\\BarBreak\\BarBreak.Application\\BarBreak.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\olexi\\.nuget\\packages\\roslynator.analyzers\\4.12.7\\roslynator.analyzers.4.12.7.nupkg.sha512",
-    "C:\\Users\\olexi\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+    "C:\\Users\\msh1t\\.nuget\\packages\\roslynator.analyzers\\4.12.7\\roslynator.analyzers.4.12.7.nupkg.sha512",
+    "C:\\Users\\msh1t\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
   ],
   "logs": []
 }

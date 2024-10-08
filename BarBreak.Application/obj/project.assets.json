@@ -92,24 +92,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\olexi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\msh1t\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\olexi\\OneDrive\\Робочий стіл\\BarBreak\\BarBreak\\BarBreak.Application\\BarBreak.Application.csproj",
+      "projectUniqueName": "E:\\pr_eng\\BarBreak\\BarBreak.Application\\BarBreak.Application.csproj",
       "projectName": "BarBreak.Application",
-      "projectPath": "C:\\Users\\olexi\\OneDrive\\Робочий стіл\\BarBreak\\BarBreak\\BarBreak.Application\\BarBreak.Application.csproj",
-      "packagesPath": "C:\\Users\\olexi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\olexi\\OneDrive\\Робочий стіл\\BarBreak\\BarBreak\\BarBreak.Application\\obj\\",
+      "projectPath": "E:\\pr_eng\\BarBreak\\BarBreak.Application\\BarBreak.Application.csproj",
+      "packagesPath": "C:\\Users\\msh1t\\.nuget\\packages\\",
+      "outputPath": "E:\\pr_eng\\BarBreak\\BarBreak.Application\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\olexi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\msh1t\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -123,8 +118,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\olexi\\OneDrive\\Робочий стіл\\BarBreak\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj": {
-              "projectPath": "C:\\Users\\olexi\\OneDrive\\Робочий стіл\\BarBreak\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj"
+            "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj": {
+              "projectPath": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj"
             }
           }
         }
@@ -173,7 +168,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

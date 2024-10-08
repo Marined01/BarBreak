@@ -1,7 +1,20 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\olexi\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\BarBreak\\BarBreak\\",
-  "Documents": [],
+  "WorkspaceRootPath": "E:\\pr_eng\\BarBreak\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67A9E576-EE80-4CBB-AFF6-F7F4F7324B21}|BarBreak.Presentation\\BarBreak.Presentation.csproj|e:\\pr_eng\\barbreak\\barbreak.presentation\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67A9E576-EE80-4CBB-AFF6-F7F4F7324B21}|BarBreak.Presentation\\BarBreak.Presentation.csproj|solutionrelative:barbreak.presentation\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBA83991-A4D3-447F-801D-A2AAD88A68CE}|BarBreak.Infrastructure\\BarBreak.Infrastructure.csproj|e:\\pr_eng\\barbreak\\barbreak.infrastructure\\loggingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBA83991-A4D3-447F-801D-A2AAD88A68CE}|BarBreak.Infrastructure\\BarBreak.Infrastructure.csproj|solutionrelative:barbreak.infrastructure\\loggingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|e:\\pr_eng\\barbreak\\barbreak.core\\barbreak.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|solutionrelative:barbreak.core\\barbreak.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Presentation\\App.xaml.cs",
+              "RelativeDocumentMoniker": "BarBreak.Presentation\\App.xaml.cs",
+              "ToolTip": "E:\\pr_eng\\BarBreak\\BarBreak.Presentation\\App.xaml.cs",
+              "RelativeToolTip": "BarBreak.Presentation\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T10:19:11.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BarBreak.Core",
+              "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj",
+              "RelativeDocumentMoniker": "BarBreak.Core\\BarBreak.Core.csproj",
+              "ToolTip": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj",
+              "RelativeToolTip": "BarBreak.Core\\BarBreak.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-08T10:07:49.765Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoggingConfiguration.cs",
+              "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Infrastructure\\LoggingConfiguration.cs",
+              "RelativeDocumentMoniker": "BarBreak.Infrastructure\\LoggingConfiguration.cs",
+              "ToolTip": "E:\\pr_eng\\BarBreak\\BarBreak.Infrastructure\\LoggingConfiguration.cs",
+              "RelativeToolTip": "BarBreak.Infrastructure\\LoggingConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T09:53:54.671Z",
+              "EditorCaption": ""
             }
           ]
         }

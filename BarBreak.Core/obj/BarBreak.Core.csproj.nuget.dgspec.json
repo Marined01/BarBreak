@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\olexi\\OneDrive\\Робочий стіл\\BarBreak\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj": {}
+    "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\olexi\\OneDrive\\Робочий стіл\\BarBreak\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj": {
+    "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\olexi\\OneDrive\\Робочий стіл\\BarBreak\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj",
+        "projectUniqueName": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj",
         "projectName": "BarBreak.Core",
-        "projectPath": "C:\\Users\\olexi\\OneDrive\\Робочий стіл\\BarBreak\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj",
-        "packagesPath": "C:\\Users\\olexi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\olexi\\OneDrive\\Робочий стіл\\BarBreak\\BarBreak\\BarBreak.Core\\obj\\",
+        "projectPath": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj",
+        "packagesPath": "C:\\Users\\msh1t\\.nuget\\packages\\",
+        "outputPath": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\olexi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\msh1t\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
