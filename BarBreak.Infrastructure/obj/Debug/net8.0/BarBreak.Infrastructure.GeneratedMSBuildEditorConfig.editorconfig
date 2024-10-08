@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BarBreak.Infrastructure
-build_property.ProjectDir = C:\Users\ngreb\OneDrive\Робочий стіл\Visual Studio\C#\BarBreak\BarBreak.Infrastructure\
+build_property.ProjectDir = C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Infrastructure\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

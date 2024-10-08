@@ -15,3 +15,21 @@ C:\Users\ngreb\OneDrive\Робочий стіл\Visual Studio\C#\BarBreak\BarBre
 C:\Users\ngreb\OneDrive\Робочий стіл\Visual Studio\C#\BarBreak\BarBreak.Infrastructure\obj\Debug\net8.0\BarBreak.Infrastructure.pdb
 C:\Users\ngreb\OneDrive\Робочий стіл\Visual Studio\C#\BarBreak\BarBreak.Infrastructure\obj\Debug\net8.0\BarBreak.Infrastructure.genruntimeconfig.cache
 C:\Users\ngreb\OneDrive\Робочий стіл\Visual Studio\C#\BarBreak\BarBreak.Infrastructure\obj\Debug\net8.0\ref\BarBreak.Infrastructure.dll
+C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Infrastructure\bin\Debug\net8.0\BarBreak.Infrastructure.deps.json
+C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Infrastructure\bin\Debug\net8.0\BarBreak.Infrastructure.runtimeconfig.json
+C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Infrastructure\bin\Debug\net8.0\BarBreak.Infrastructure.dll
+C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Infrastructure\bin\Debug\net8.0\BarBreak.Infrastructure.pdb
+C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Infrastructure\bin\Debug\net8.0\BarBreak.Core.dll
+C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Infrastructure\bin\Debug\net8.0\BarBreak.Core.pdb
+C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Infrastructure\obj\Debug\net8.0\BarBreak.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Infrastructure\obj\Debug\net8.0\BarBreak.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Infrastructure\obj\Debug\net8.0\BarBreak.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Infrastructure\obj\Debug\net8.0\BarBreak.Infrastructure.AssemblyInfo.cs
+C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Infrastructure\obj\Debug\net8.0\BarBreak.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Infrastructure\obj\Debug\net8.0\BarBreak.Infrastructure.sourcelink.json
+C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Infrastructure\obj\Debug\net8.0\BarBreak.AEF347E2.Up2Date
+C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Infrastructure\obj\Debug\net8.0\BarBreak.Infrastructure.dll
+C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Infrastructure\obj\Debug\net8.0\refint\BarBreak.Infrastructure.dll
+C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Infrastructure\obj\Debug\net8.0\BarBreak.Infrastructure.pdb
+C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Infrastructure\obj\Debug\net8.0\BarBreak.Infrastructure.genruntimeconfig.cache
+C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Infrastructure\obj\Debug\net8.0\ref\BarBreak.Infrastructure.dll

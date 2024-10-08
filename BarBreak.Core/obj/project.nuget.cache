@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DLxHXKffl5kIpIQkmmL3eHN60dbIoDMcx9bdixCCdNlpIipl9Aqqee+IRPjqHckO+g7khVfaOugNU8z7z4Tt1Q==",
+  "dgSpecHash": "GVIyX74BSFU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ngreb\\OneDrive\\Робочий стіл\\Visual Studio\\C#\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\olexi\\OneDrive\\Робочий стіл\\BarBreak\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\olexi\\.nuget\\packages\\roslynator.analyzers\\4.12.7\\roslynator.analyzers.4.12.7.nupkg.sha512",
+    "C:\\Users\\olexi\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
   "logs": []
 }

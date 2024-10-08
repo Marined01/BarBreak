@@ -11,7 +11,8 @@
           "BarBreak.Core": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore.Design": "8.0.8",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.8"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.8",
+          "Roslynator.Analyzers": "4.12.7"
         },
         "runtime": {
           "BarBreak.Infrastructure.dll": {}
@@ -452,6 +453,7 @@
           }
         }
       },
+      "Roslynator.Analyzers/4.12.7": {},
       "System.CodeDom/4.4.0": {
         "runtime": {
           "lib/netstandard2.0/System.CodeDom.dll": {
@@ -548,18 +550,15 @@
       "System.Text.Json/8.0.4": {
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0"
-        },
-        "runtime": {
-          "lib/net8.0/System.Text.Json.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.724.31311"
-          }
         }
       },
       "System.Threading.Channels/6.0.0": {},
       "BarBreak.Core/1.0.0": {
         "runtime": {
-          "BarBreak.Core.dll": {}
+          "BarBreak.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -744,6 +743,13 @@
       "sha512": "sha512-D5WWJZJTgZYUmGv66BARXbTlinp2a5f5RueJqGYoHuWJw02J0i2va/RA+8N4A5hLORK5YKMRqXhFWtKsZdrksw==",
       "path": "npgsql.entityframeworkcore.postgresql/8.0.8",
       "hashPath": "npgsql.entityframeworkcore.postgresql.8.0.8.nupkg.sha512"
+    },
+    "Roslynator.Analyzers/4.12.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pYDikoTXugueMq/ZBUMIjALdL4D2chgXSMQJCp2uLk2fUMtDZJw8F0CQvIWc/64gKCqkwOkTr/e2HhQaVyNAXw==",
+      "path": "roslynator.analyzers/4.12.7",
+      "hashPath": "roslynator.analyzers.4.12.7.nupkg.sha512"
     },
     "System.CodeDom/4.4.0": {
       "type": "package",

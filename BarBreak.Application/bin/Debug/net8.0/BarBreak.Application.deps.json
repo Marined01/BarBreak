@@ -1,0 +1,48 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BarBreak.Application/1.0.0": {
+        "dependencies": {
+          "BarBreak.Core": "1.0.0",
+          "Roslynator.Analyzers": "4.12.7"
+        },
+        "runtime": {
+          "BarBreak.Application.dll": {}
+        }
+      },
+      "Roslynator.Analyzers/4.12.7": {},
+      "BarBreak.Core/1.0.0": {
+        "runtime": {
+          "BarBreak.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BarBreak.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Roslynator.Analyzers/4.12.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pYDikoTXugueMq/ZBUMIjALdL4D2chgXSMQJCp2uLk2fUMtDZJw8F0CQvIWc/64gKCqkwOkTr/e2HhQaVyNAXw==",
+      "path": "roslynator.analyzers/4.12.7",
+      "hashPath": "roslynator.analyzers.4.12.7.nupkg.sha512"
+    },
+    "BarBreak.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
