@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using BarBreak.Core; 
+using BarBreak.Core.Entities;
 
 public class ApplicationDbContext : DbContext
 {

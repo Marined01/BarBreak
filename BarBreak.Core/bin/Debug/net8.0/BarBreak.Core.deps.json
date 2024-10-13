@@ -8,13 +8,15 @@
     ".NETCoreApp,Version=v8.0": {
       "BarBreak.Core/1.0.0": {
         "dependencies": {
-          "Roslynator.Analyzers": "4.12.7"
+          "Roslynator.Analyzers": "4.12.7",
+          "StyleCop.Analyzers": "1.1.118"
         },
         "runtime": {
           "BarBreak.Core.dll": {}
         }
       },
-      "Roslynator.Analyzers/4.12.7": {}
+      "Roslynator.Analyzers/4.12.7": {},
+      "StyleCop.Analyzers/1.1.118": {}
     }
   },
   "libraries": {
@@ -29,6 +31,13 @@
       "sha512": "sha512-pYDikoTXugueMq/ZBUMIjALdL4D2chgXSMQJCp2uLk2fUMtDZJw8F0CQvIWc/64gKCqkwOkTr/e2HhQaVyNAXw==",
       "path": "roslynator.analyzers/4.12.7",
       "hashPath": "roslynator.analyzers.4.12.7.nupkg.sha512"
+    },
+    "StyleCop.Analyzers/1.1.118": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Onx6ovGSqXSK07n/0eM3ZusiNdB6cIlJdabQhWGgJp3Vooy9AaLS/tigeybOJAobqbtggTamoWndz72JscZBvw==",
+      "path": "stylecop.analyzers/1.1.118",
+      "hashPath": "stylecop.analyzers.1.1.118.nupkg.sha512"
     }
   }
 }

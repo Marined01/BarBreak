@@ -21,3 +21,15 @@ C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Core\
 C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Core\obj\Debug\net8.0\refint\BarBreak.Core.dll
 C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Core\obj\Debug\net8.0\BarBreak.Core.pdb
 C:\Users\olexi\OneDrive\Робочий стіл\BarBreak\BarBreak\BarBreak.Core\obj\Debug\net8.0\ref\BarBreak.Core.dll
+E:\pr_eng\BarBreak\BarBreak.Core\bin\Debug\net8.0\BarBreak.Core.deps.json
+E:\pr_eng\BarBreak\BarBreak.Core\bin\Debug\net8.0\BarBreak.Core.dll
+E:\pr_eng\BarBreak\BarBreak.Core\bin\Debug\net8.0\BarBreak.Core.pdb
+E:\pr_eng\BarBreak\BarBreak.Core\obj\Debug\net8.0\BarBreak.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\pr_eng\BarBreak\BarBreak.Core\obj\Debug\net8.0\BarBreak.Core.AssemblyInfoInputs.cache
+E:\pr_eng\BarBreak\BarBreak.Core\obj\Debug\net8.0\BarBreak.Core.AssemblyInfo.cs
+E:\pr_eng\BarBreak\BarBreak.Core\obj\Debug\net8.0\BarBreak.Core.csproj.CoreCompileInputs.cache
+E:\pr_eng\BarBreak\BarBreak.Core\obj\Debug\net8.0\BarBreak.Core.sourcelink.json
+E:\pr_eng\BarBreak\BarBreak.Core\obj\Debug\net8.0\BarBreak.Core.dll
+E:\pr_eng\BarBreak\BarBreak.Core\obj\Debug\net8.0\refint\BarBreak.Core.dll
+E:\pr_eng\BarBreak\BarBreak.Core\obj\Debug\net8.0\BarBreak.Core.pdb
+E:\pr_eng\BarBreak\BarBreak.Core\obj\Debug\net8.0\ref\BarBreak.Core.dll

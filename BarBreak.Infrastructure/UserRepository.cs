@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using BarBreak.Core;
+using BarBreak.Core.Entities;
+using BarBreak.Core.Repositories;
 
 namespace BarBreak.Infrastructure
 {

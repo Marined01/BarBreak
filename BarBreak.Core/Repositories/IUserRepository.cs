@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using BarBreak.Core.Entities;
 
-namespace BarBreak.Core
+namespace BarBreak.Core.Repositories
 {
     public interface IUserRepository
     {

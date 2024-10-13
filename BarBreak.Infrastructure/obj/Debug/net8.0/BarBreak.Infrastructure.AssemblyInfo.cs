@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BarBreak.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+151ec0a7fcceb791ae68fd41ee1d0b330c562335")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb6ad0c06b27eb55cf31f197d3bcdaa0d9747aa6")]
 [assembly: System.Reflection.AssemblyProductAttribute("BarBreak.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BarBreak.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
