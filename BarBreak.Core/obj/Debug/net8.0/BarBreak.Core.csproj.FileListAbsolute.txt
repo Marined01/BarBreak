@@ -33,3 +33,4 @@ E:\pr_eng\BarBreak\BarBreak.Core\obj\Debug\net8.0\BarBreak.Core.dll
 E:\pr_eng\BarBreak\BarBreak.Core\obj\Debug\net8.0\refint\BarBreak.Core.dll
 E:\pr_eng\BarBreak\BarBreak.Core\obj\Debug\net8.0\BarBreak.Core.pdb
 E:\pr_eng\BarBreak\BarBreak.Core\obj\Debug\net8.0\ref\BarBreak.Core.dll
+E:\pr_eng\BarBreak\BarBreak.Core\obj\Debug\net8.0\BarBreak.Core.csproj.AssemblyReference.cache

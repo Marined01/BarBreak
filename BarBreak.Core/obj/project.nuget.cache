@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wpBf+34gKYw=",
+  "dgSpecHash": "OeQyWeS60IQ=",
   "success": true,
   "projectFilePath": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\msh1t\\.nuget\\packages\\roslynator.analyzers\\4.12.7\\roslynator.analyzers.4.12.7.nupkg.sha512",
+    "C:\\Users\\msh1t\\.nuget\\packages\\roslynator.analyzers\\4.12.8\\roslynator.analyzers.4.12.8.nupkg.sha512",
+    "C:\\Users\\msh1t\\.nuget\\packages\\serilog\\4.0.2\\serilog.4.0.2.nupkg.sha512",
     "C:\\Users\\msh1t\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
   ],
   "logs": []

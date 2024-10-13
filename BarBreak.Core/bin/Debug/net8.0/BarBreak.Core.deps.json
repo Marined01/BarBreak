@@ -8,14 +8,23 @@
     ".NETCoreApp,Version=v8.0": {
       "BarBreak.Core/1.0.0": {
         "dependencies": {
-          "Roslynator.Analyzers": "4.12.7",
+          "Roslynator.Analyzers": "4.12.8",
+          "Serilog": "4.0.2",
           "StyleCop.Analyzers": "1.1.118"
         },
         "runtime": {
           "BarBreak.Core.dll": {}
         }
       },
-      "Roslynator.Analyzers/4.12.7": {},
+      "Roslynator.Analyzers/4.12.8": {},
+      "Serilog/4.0.2": {
+        "runtime": {
+          "lib/net8.0/Serilog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
       "StyleCop.Analyzers/1.1.118": {}
     }
   },
@@ -25,12 +34,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Roslynator.Analyzers/4.12.7": {
+    "Roslynator.Analyzers/4.12.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-pYDikoTXugueMq/ZBUMIjALdL4D2chgXSMQJCp2uLk2fUMtDZJw8F0CQvIWc/64gKCqkwOkTr/e2HhQaVyNAXw==",
-      "path": "roslynator.analyzers/4.12.7",
-      "hashPath": "roslynator.analyzers.4.12.7.nupkg.sha512"
+      "sha512": "sha512-1G1WWRIoA3FQ2E0nnsPLoiQms9ann+nLYRQWv3c0pUE/FaYuWt3Bb12Fxbsp76lHt7p9yzdvvMrFkD7C3F+50A==",
+      "path": "roslynator.analyzers/4.12.8",
+      "hashPath": "roslynator.analyzers.4.12.8.nupkg.sha512"
+    },
+    "Serilog/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vehq4uNYtURe/OnHEpWGvMgrvr5Vou7oZLdn3BuEH5FSCeHXDpNJtpzWoqywXsSvCTuiv0I65mZDRnJSeUvisA==",
+      "path": "serilog/4.0.2",
+      "hashPath": "serilog.4.0.2.nupkg.sha512"
     },
     "StyleCop.Analyzers/1.1.118": {
       "type": "package",

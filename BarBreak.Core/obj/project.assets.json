@@ -2,8 +2,21 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Roslynator.Analyzers/4.12.7": {
+      "Roslynator.Analyzers/4.12.8": {
         "type": "package"
+      },
+      "Serilog/4.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
       },
       "StyleCop.Analyzers/1.1.118": {
         "type": "package"
@@ -11,10 +24,10 @@
     }
   },
   "libraries": {
-    "Roslynator.Analyzers/4.12.7": {
-      "sha512": "pYDikoTXugueMq/ZBUMIjALdL4D2chgXSMQJCp2uLk2fUMtDZJw8F0CQvIWc/64gKCqkwOkTr/e2HhQaVyNAXw==",
+    "Roslynator.Analyzers/4.12.8": {
+      "sha512": "1G1WWRIoA3FQ2E0nnsPLoiQms9ann+nLYRQWv3c0pUE/FaYuWt3Bb12Fxbsp76lHt7p9yzdvvMrFkD7C3F+50A==",
       "type": "package",
-      "path": "roslynator.analyzers/4.12.7",
+      "path": "roslynator.analyzers/4.12.8",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -37,10 +50,33 @@
         "analyzers/dotnet/roslyn4.7/cs/Roslynator_Analyzers_Roslynator.Workspaces.Core.dll",
         "docs/README.md",
         "icon.png",
-        "roslynator.analyzers.4.12.7.nupkg.sha512",
+        "roslynator.analyzers.4.12.8.nupkg.sha512",
         "roslynator.analyzers.nuspec",
         "tools/install.ps1",
         "tools/uninstall.ps1"
+      ]
+    },
+    "Serilog/4.0.2": {
+      "sha512": "Vehq4uNYtURe/OnHEpWGvMgrvr5Vou7oZLdn3BuEH5FSCeHXDpNJtpzWoqywXsSvCTuiv0I65mZDRnJSeUvisA==",
+      "type": "package",
+      "path": "serilog/4.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net462/Serilog.dll",
+        "lib/net462/Serilog.xml",
+        "lib/net471/Serilog.dll",
+        "lib/net471/Serilog.xml",
+        "lib/net6.0/Serilog.dll",
+        "lib/net6.0/Serilog.xml",
+        "lib/net8.0/Serilog.dll",
+        "lib/net8.0/Serilog.xml",
+        "lib/netstandard2.0/Serilog.dll",
+        "lib/netstandard2.0/Serilog.xml",
+        "serilog.4.0.2.nupkg.sha512",
+        "serilog.nuspec"
       ]
     },
     "StyleCop.Analyzers/1.1.118": {
@@ -71,7 +107,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Roslynator.Analyzers >= 4.12.7",
+      "Roslynator.Analyzers >= 4.12.8",
+      "Serilog >= 4.0.2",
       "StyleCop.Analyzers >= 1.1.118"
     ]
   },
@@ -123,7 +160,11 @@
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[4.12.7, )"
+            "version": "[4.12.8, )"
+          },
+          "Serilog": {
+            "target": "Package",
+            "version": "[4.0.2, )"
           },
           "StyleCop.Analyzers": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

@@ -3,20 +3,52 @@
   "WorkspaceRootPath": "E:\\pr_eng\\BarBreak\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|e:\\pr_eng\\barbreak\\barbreak.core\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|solutionrelative:barbreak.core\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|e:\\pr_eng\\barbreak\\barbreak.core\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|solutionrelative:barbreak.core\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67A9E576-EE80-4CBB-AFF6-F7F4F7324B21}|BarBreak.Presentation\\BarBreak.Presentation.csproj|e:\\pr_eng\\barbreak\\barbreak.presentation\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67A9E576-EE80-4CBB-AFF6-F7F4F7324B21}|BarBreak.Presentation\\BarBreak.Presentation.csproj|solutionrelative:barbreak.presentation\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|e:\\pr_eng\\barbreak\\barbreak.core\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|solutionrelative:barbreak.core\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|e:\\pr_eng\\barbreak\\barbreak.core\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|solutionrelative:barbreak.core\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|e:\\pr_eng\\barbreak\\barbreak.core\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|solutionrelative:barbreak.core\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|e:\\pr_eng\\barbreak\\barbreak.core\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|solutionrelative:barbreak.core\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|e:\\pr_eng\\barbreak\\barbreak.core\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|solutionrelative:barbreak.core\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|e:\\pr_eng\\barbreak\\barbreak.core\\repositories\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|solutionrelative:barbreak.core\\repositories\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|e:\\pr_eng\\barbreak\\barbreak.core\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|solutionrelative:barbreak.core\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|e:\\pr_eng\\barbreak\\barbreak.core\\repositories\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|solutionrelative:barbreak.core\\repositories\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|e:\\pr_eng\\barbreak\\barbreak.core\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|solutionrelative:barbreak.core\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|e:\\pr_eng\\barbreak\\barbreak.core\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|solutionrelative:barbreak.core\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|e:\\pr_eng\\barbreak\\barbreak.core\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|solutionrelative:barbreak.core\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|e:\\pr_eng\\barbreak\\barbreak.core\\barbreak.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -25,18 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|e:\\pr_eng\\barbreak\\barbreak.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|solutionrelative:barbreak.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|e:\\pr_eng\\barbreak\\barbreak.core\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|solutionrelative:barbreak.core\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|e:\\pr_eng\\barbreak\\barbreak.core\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EC64E3F-E086-47CF-9CBD-D04299B7839D}|BarBreak.Core\\BarBreak.Core.csproj|solutionrelative:barbreak.core\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67A9E576-EE80-4CBB-AFF6-F7F4F7324B21}|BarBreak.Presentation\\BarBreak.Presentation.csproj|e:\\pr_eng\\barbreak\\barbreak.presentation\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67A9E576-EE80-4CBB-AFF6-F7F4F7324B21}|BarBreak.Presentation\\BarBreak.Presentation.csproj|solutionrelative:barbreak.presentation\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FBA83991-A4D3-447F-801D-A2AAD88A68CE}|BarBreak.Infrastructure\\BarBreak.Infrastructure.csproj|e:\\pr_eng\\barbreak\\barbreak.infrastructure\\loggingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,76 +70,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "BarBreak.Core\\Repositories\\IUserRepository.cs",
-              "ToolTip": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "BarBreak.Core\\Repositories\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T17:02:55.739Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RoleService.cs",
-              "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Services\\RoleService.cs",
-              "RelativeDocumentMoniker": "BarBreak.Core\\Services\\RoleService.cs",
-              "ToolTip": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Services\\RoleService.cs",
-              "RelativeToolTip": "BarBreak.Core\\Services\\RoleService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Repositories\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "BarBreak.Core\\Repositories\\IRoleRepository.cs",
+              "ToolTip": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Repositories\\IRoleRepository.cs",
+              "RelativeToolTip": "BarBreak.Core\\Repositories\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T17:05:48.9Z",
+              "WhenOpened": "2024-10-13T17:31:39.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CourseService.cs",
-              "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Services\\CourseService.cs",
-              "RelativeDocumentMoniker": "BarBreak.Core\\Services\\CourseService.cs",
-              "ToolTip": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Services\\CourseService.cs",
-              "RelativeToolTip": "BarBreak.Core\\Services\\CourseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T17:05:24.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "UserService.cs",
               "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "BarBreak.Core\\Services\\UserService.cs",
               "ToolTip": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Services\\UserService.cs",
               "RelativeToolTip": "BarBreak.Core\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAADwv2IAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T17:04:52.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "BarBreak.Core\\Entities\\User.cs",
-              "ToolTip": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Entities\\User.cs",
-              "RelativeToolTip": "BarBreak.Core\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Services\\RoleService.cs",
+              "RelativeDocumentMoniker": "BarBreak.Core\\Services\\RoleService.cs",
+              "ToolTip": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Services\\RoleService.cs",
+              "RelativeToolTip": "BarBreak.Core\\Services\\RoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T16:56:02.6Z",
+              "WhenOpened": "2024-10-13T17:05:48.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Services\\CourseService.cs",
+              "RelativeDocumentMoniker": "BarBreak.Core\\Services\\CourseService.cs",
+              "ToolTip": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Services\\CourseService.cs",
+              "RelativeToolTip": "BarBreak.Core\\Services\\CourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T17:05:24.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Course.cs",
+              "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Entities\\Course.cs",
+              "RelativeDocumentMoniker": "BarBreak.Core\\Entities\\Course.cs",
+              "ToolTip": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Entities\\Course.cs",
+              "RelativeToolTip": "BarBreak.Core\\Entities\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T16:50:07.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Role.cs",
               "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Entities\\Role.cs",
               "RelativeDocumentMoniker": "BarBreak.Core\\Entities\\Role.cs",
@@ -132,37 +156,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Course.cs",
-              "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Entities\\Course.cs",
-              "RelativeDocumentMoniker": "BarBreak.Core\\Entities\\Course.cs",
-              "ToolTip": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Entities\\Course.cs",
-              "RelativeToolTip": "BarBreak.Core\\Entities\\Course.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T16:50:07.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Presentation\\App.xaml.cs",
               "RelativeDocumentMoniker": "BarBreak.Presentation\\App.xaml.cs",
               "ToolTip": "E:\\pr_eng\\BarBreak\\BarBreak.Presentation\\App.xaml.cs",
               "RelativeToolTip": "BarBreak.Presentation\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T10:19:11.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "BarBreak.Core\\Repositories\\IUserRepository.cs",
+              "ToolTip": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "BarBreak.Core\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T17:02:55.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Repositories\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "BarBreak.Core\\Repositories\\ICourseRepository.cs",
+              "ToolTip": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Repositories\\ICourseRepository.cs",
+              "RelativeToolTip": "BarBreak.Core\\Repositories\\ICourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T17:30:56.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "BarBreak.Core\\Repositories\\RoleRepository.cs",
+              "ToolTip": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "BarBreak.Core\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T17:31:51.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Repositories\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "BarBreak.Core\\Repositories\\CourseRepository.cs",
+              "ToolTip": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Repositories\\CourseRepository.cs",
+              "RelativeToolTip": "BarBreak.Core\\Repositories\\CourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T17:31:06.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "BarBreak.Core\\Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "BarBreak.Core\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T17:30:18.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "BarBreak.Core\\Entities\\User.cs",
+              "ToolTip": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\Entities\\User.cs",
+              "RelativeToolTip": "BarBreak.Core\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T16:56:02.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "BarBreak.Core.csproj",
               "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj",
               "RelativeDocumentMoniker": "BarBreak.Core\\BarBreak.Core.csproj",
@@ -175,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "LoggingConfiguration.cs",
               "DocumentMoniker": "E:\\pr_eng\\BarBreak\\BarBreak.Infrastructure\\LoggingConfiguration.cs",
               "RelativeDocumentMoniker": "BarBreak.Infrastructure\\LoggingConfiguration.cs",
@@ -183,7 +268,8 @@
               "RelativeToolTip": "BarBreak.Infrastructure\\LoggingConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T09:53:54.671Z"
+              "WhenOpened": "2024-10-08T09:53:54.671Z",
+              "EditorCaption": ""
             }
           ]
         }
