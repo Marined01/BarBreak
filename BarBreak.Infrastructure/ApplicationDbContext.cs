@@ -22,7 +22,7 @@ public class ApplicationDbContext : DbContext
     // Model configuration
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        // Визначення зв'язків між сутностями
+        // Definition of relationships between entities
         modelBuilder.Entity<User>()
             .HasMany(u => u.Courses)
             .WithMany(c => c.Users)
