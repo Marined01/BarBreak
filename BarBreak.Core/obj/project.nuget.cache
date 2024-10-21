@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OeQyWeS60IQ=",
+  "dgSpecHash": "oFIzaTCw1Mzfe5eAlW+S1xN/whbGkFoVvpzenXmTuOkiVXBfjAtL/lBRjMTfq9UwIdkQYo0eDSe0/FvQRFm/Og==",
   "success": true,
-  "projectFilePath": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj",
+  "projectFilePath": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\msh1t\\.nuget\\packages\\roslynator.analyzers\\4.12.8\\roslynator.analyzers.4.12.8.nupkg.sha512",
-    "C:\\Users\\msh1t\\.nuget\\packages\\serilog\\4.0.2\\serilog.4.0.2.nupkg.sha512",
-    "C:\\Users\\msh1t\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+    "C:\\Users\\ngreb\\.nuget\\packages\\roslynator.analyzers\\4.12.8\\roslynator.analyzers.4.12.8.nupkg.sha512",
+    "C:\\Users\\ngreb\\.nuget\\packages\\serilog\\4.0.2\\serilog.4.0.2.nupkg.sha512",
+    "C:\\Users\\ngreb\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
   ],
   "logs": []
 }

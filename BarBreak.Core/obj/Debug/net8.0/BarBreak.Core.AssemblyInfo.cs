@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BarBreak.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5a40c96a2aa0671c6be15bbc1fb9dc3a0cc8f11")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e24385fa7dadc72f3d37c26cebe2245c2833d5a")]
 [assembly: System.Reflection.AssemblyProductAttribute("BarBreak.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BarBreak.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

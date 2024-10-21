@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj": {}
+    "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj": {}
   },
   "projects": {
-    "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj": {
+    "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj",
+        "projectUniqueName": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj",
         "projectName": "BarBreak.Core",
-        "projectPath": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj",
-        "packagesPath": "C:\\Users\\msh1t\\.nuget\\packages\\",
-        "outputPath": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\obj\\",
+        "projectPath": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj",
+        "packagesPath": "C:\\Users\\ngreb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\msh1t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ngreb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -78,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

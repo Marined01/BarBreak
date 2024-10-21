@@ -131,19 +131,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\msh1t\\.nuget\\packages\\": {}
+    "C:\\Users\\ngreb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\pr_eng\\BarBreak\\BarBreak.Application\\BarBreak.Application.csproj",
+      "projectUniqueName": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Application\\BarBreak.Application.csproj",
       "projectName": "BarBreak.Application",
-      "projectPath": "E:\\pr_eng\\BarBreak\\BarBreak.Application\\BarBreak.Application.csproj",
-      "packagesPath": "C:\\Users\\msh1t\\.nuget\\packages\\",
-      "outputPath": "E:\\pr_eng\\BarBreak\\BarBreak.Application\\obj\\",
+      "projectPath": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Application\\BarBreak.Application.csproj",
+      "packagesPath": "C:\\Users\\ngreb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\msh1t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ngreb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -157,8 +157,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj": {
-              "projectPath": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj"
+            "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj": {
+              "projectPath": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj"
             }
           }
         }
@@ -167,11 +167,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -207,7 +202,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

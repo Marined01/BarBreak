@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\pr_eng\\BarBreak\\BarBreak.Presentation\\BarBreak.Presentation.csproj": {}
+    "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Presentation\\BarBreak.Presentation.csproj": {}
   },
   "projects": {
-    "E:\\pr_eng\\BarBreak\\BarBreak.Application\\BarBreak.Application.csproj": {
+    "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Application\\BarBreak.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\pr_eng\\BarBreak\\BarBreak.Application\\BarBreak.Application.csproj",
+        "projectUniqueName": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Application\\BarBreak.Application.csproj",
         "projectName": "BarBreak.Application",
-        "projectPath": "E:\\pr_eng\\BarBreak\\BarBreak.Application\\BarBreak.Application.csproj",
-        "packagesPath": "C:\\Users\\msh1t\\.nuget\\packages\\",
-        "outputPath": "E:\\pr_eng\\BarBreak\\BarBreak.Application\\obj\\",
+        "projectPath": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Application\\BarBreak.Application.csproj",
+        "packagesPath": "C:\\Users\\ngreb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\msh1t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ngreb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj": {
-                "projectPath": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj"
+              "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj": {
+                "projectPath": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj"
               }
             }
           }
@@ -38,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -78,21 +73,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj": {
+    "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj",
+        "projectUniqueName": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj",
         "projectName": "BarBreak.Core",
-        "projectPath": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj",
-        "packagesPath": "C:\\Users\\msh1t\\.nuget\\packages\\",
-        "outputPath": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\obj\\",
+        "projectPath": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj",
+        "packagesPath": "C:\\Users\\ngreb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\msh1t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ngreb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -112,11 +107,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -156,21 +146,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\pr_eng\\BarBreak\\BarBreak.Infrastructure\\BarBreak.Infrastructure.csproj": {
+    "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Infrastructure\\BarBreak.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\pr_eng\\BarBreak\\BarBreak.Infrastructure\\BarBreak.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Infrastructure\\BarBreak.Infrastructure.csproj",
         "projectName": "BarBreak.Infrastructure",
-        "projectPath": "E:\\pr_eng\\BarBreak\\BarBreak.Infrastructure\\BarBreak.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\msh1t\\.nuget\\packages\\",
-        "outputPath": "E:\\pr_eng\\BarBreak\\BarBreak.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Infrastructure\\BarBreak.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ngreb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\msh1t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ngreb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -184,8 +174,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj": {
-                "projectPath": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj"
+              "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj": {
+                "projectPath": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj"
               }
             }
           }
@@ -194,11 +184,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -264,21 +249,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\pr_eng\\BarBreak\\BarBreak.Presentation\\BarBreak.Presentation.csproj": {
+    "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Presentation\\BarBreak.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\pr_eng\\BarBreak\\BarBreak.Presentation\\BarBreak.Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Presentation\\BarBreak.Presentation.csproj",
         "projectName": "BarBreak.Presentation",
-        "projectPath": "E:\\pr_eng\\BarBreak\\BarBreak.Presentation\\BarBreak.Presentation.csproj",
-        "packagesPath": "C:\\Users\\msh1t\\.nuget\\packages\\",
-        "outputPath": "E:\\pr_eng\\BarBreak\\BarBreak.Presentation\\obj\\",
+        "projectPath": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Presentation\\BarBreak.Presentation.csproj",
+        "packagesPath": "C:\\Users\\ngreb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\msh1t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ngreb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -292,14 +277,14 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "E:\\pr_eng\\BarBreak\\BarBreak.Application\\BarBreak.Application.csproj": {
-                "projectPath": "E:\\pr_eng\\BarBreak\\BarBreak.Application\\BarBreak.Application.csproj"
+              "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Application\\BarBreak.Application.csproj": {
+                "projectPath": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Application\\BarBreak.Application.csproj"
               },
-              "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj": {
-                "projectPath": "E:\\pr_eng\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj"
+              "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj": {
+                "projectPath": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Core\\BarBreak.Core.csproj"
               },
-              "E:\\pr_eng\\BarBreak\\BarBreak.Infrastructure\\BarBreak.Infrastructure.csproj": {
-                "projectPath": "E:\\pr_eng\\BarBreak\\BarBreak.Infrastructure\\BarBreak.Infrastructure.csproj"
+              "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Infrastructure\\BarBreak.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ngreb\\OneDrive\\Документи\\GitHub\\BarBreak\\BarBreak.Infrastructure\\BarBreak.Infrastructure.csproj"
               }
             }
           }
@@ -308,11 +293,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -375,7 +355,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
