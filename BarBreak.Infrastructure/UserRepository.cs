@@ -8,42 +8,42 @@ namespace BarBreak.Infrastructure
 {
     public class UserRepository : IUserRepository
     {
-        private readonly ApplicationDbContext _context; // Контекст бази даних
+        private readonly ApplicationDbContext _context; // Database context
 
         public UserRepository(ApplicationDbContext context)
         {
-            _context = context; // Ініціалізуємо контекст
+            _context = context; // Initialize the database context
         }
 
         public async Task<User> GetUserByIdAsync(int id)
         {
-            return await _context.Users.FindAsync(id); // Повертає користувача за ID
+            return await _context.Users.FindAsync(id); // Retrieve a user by their ID
         }
 
         public async Task<IEnumerable<User>> GetAllUsersAsync()
         {
-            return await _context.Users.ToListAsync(); // Повертає всіх користувачів
+            return await _context.Users.ToListAsync(); // Retrieve all users
         }
 
         public async Task AddUserAsync(User user)
         {
-            await _context.Users.AddAsync(user); // Додає нового користувача
-            await _context.SaveChangesAsync(); // Зберігає зміни
+            await _context.Users.AddAsync(user); // Add a new user
+            await _context.SaveChangesAsync(); // Persist changes to the database
         }
 
         public async Task UpdateUserAsync(User user)
         {
-            _context.Users.Update(user); // Оновлює дані користувача
-            await _context.SaveChangesAsync(); // Зберігає зміни
+            _context.Users.Update(user); // Update user data
+            await _context.SaveChangesAsync(); // Persist changes to the database
         }
 
         public async Task DeleteUserAsync(int id)
         {
-            var user = await GetUserByIdAsync(id); // Знаходимо користувача за ID
+            var user = await GetUserByIdAsync(id); // Find user by ID
             if (user != null)
             {
-                _context.Users.Remove(user); // Видаляє користувача
-                await _context.SaveChangesAsync(); // Зберігає зміни
+                _context.Users.Remove(user); // Remove the user from the database
+                await _context.SaveChangesAsync(); // Persist changes to the database
             }
         }
     }
