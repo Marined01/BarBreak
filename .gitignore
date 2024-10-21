@@ -1,0 +1,9 @@
+# Ignore build results and temporary files
+**/bin/
+**/obj/
+
+# Ignore environment variable files
+.env
+
+# Ignore .vs config
+.vs/
