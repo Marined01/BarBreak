@@ -1,20 +1,18 @@
-﻿using BarBreak.Core.Entities;
+﻿using BarBreak.Core.DTOs;
+using BarBreak.Core.Entities;
 using BarBreak.Core.Repositories;
-using System;
+using Serilog;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Serilog;
 
 namespace BarBreak.Core.Services
 {
     public interface ICourseService
     {
-        Course GetCourseById(int id);
-        IEnumerable<Course> GetAllCourses();
-        void AddCourse(Course course);
-        void UpdateCourse(Course course);
+        CourseDto GetCourseById(int id);
+        IEnumerable<CourseDto> GetAllCourses();
+        void AddCourse(CourseDto course);
+        void UpdateCourse(CourseDto course);
         void DeleteCourse(int id);
     }
 
@@ -29,76 +27,61 @@ namespace BarBreak.Core.Services
             _logger = logger;
         }
 
-        public Course GetCourseById(int id)
+        public CourseDto GetCourseById(int id)
         {
-            try
+            _logger.Information("Fetching course with ID: {CourseId}", id);
+            var course = _courseRepository.GetCourseById(id);
+
+            return new CourseDto
             {
-                _logger.Information("Fetching course with ID: {CourseId}", id);
-                var course = _courseRepository.GetCourseById(id);
-                return course;
-            }
-            catch (Exception ex)
-            {
-                _logger.Error(ex, "Error fetching course with ID: {CourseId}", id);
-                throw;
-            }
+                Id = course.ID,
+                Title = course.Title,
+                Description = course.Description
+            };
         }
 
-        public IEnumerable<Course> GetAllCourses()
+        public IEnumerable<CourseDto> GetAllCourses()
         {
-            try
+            _logger.Information("Fetching all courses");
+            var courses = _courseRepository.GetAllCourses();
+
+            return courses.Select(course => new CourseDto
             {
-                _logger.Information("Fetching all courses");
-                var courses = _courseRepository.GetAllCourses();
-                return courses;
-            }
-            catch (Exception ex)
-            {
-                _logger.Error(ex, "Error fetching all courses");
-                throw;
-            }
+                Id = course.ID,
+                Title = course.Title,
+                Description = course.Description
+            }).ToList();
         }
 
-        public void AddCourse(Course course)
+        public void AddCourse(CourseDto courseDto)
         {
-            try
+            _logger.Information("Adding new course with title: {CourseTitle}", courseDto.Title);
+
+            var course = new Course
             {
-                _logger.Information("Adding new course with title: {CourseTitle}", course.Title);
-                _courseRepository.AddCourse(course);
-            }
-            catch (Exception ex)
-            {
-                _logger.Error(ex, "Error adding course with title: {CourseTitle}", course.Title);
-                throw;
-            }
+                Title = courseDto.Title,
+                Description = courseDto.Description
+            };
+
+            _courseRepository.AddCourse(course);
         }
 
-        public void UpdateCourse(Course course)
+        public void UpdateCourse(CourseDto courseDto)
         {
-            try
-            {
-                _logger.Information("Updating course with ID: {CourseId}", course.ID);
-                _courseRepository.UpdateCourse(course);
-            }
-            catch (Exception ex)
-            {
-                _logger.Error(ex, "Error updating course with ID: {CourseId}", course.ID);
-                throw;
-            }
+            _logger.Information("Updating course with ID: {CourseId}", courseDto.Id);
+
+            var course = _courseRepository.GetCourseById(courseDto.Id);
+
+            course.Title = courseDto.Title;
+            course.Description = courseDto.Description;
+
+            _courseRepository.UpdateCourse(course);
         }
 
         public void DeleteCourse(int id)
         {
-            try
-            {
-                _logger.Information("Deleting course with ID: {CourseId}", id);
-                _courseRepository.DeleteCourse(id);
-            }
-            catch (Exception ex)
-            {
-                _logger.Error(ex, "Error deleting course with ID: {CourseId}", id);
-                throw;
-            }
+            _logger.Information("Deleting course with ID: {CourseId}", id);
+            _courseRepository.DeleteCourse(id);
         }
     }
 }
