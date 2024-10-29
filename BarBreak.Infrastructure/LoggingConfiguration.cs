@@ -1,19 +1,20 @@
-﻿using Serilog;
+﻿namespace BarBreak.Infrastructure;
+
+using Serilog;
 using Serilog.Events;
 
-namespace BarBreak.Infrastructure
+internal static class LoggingConfiguration
 {
-    internal static class LoggingConfiguration
+    public static void ConfigureLogging()
     {
-        public static void ConfigureLogging()
-        {
-            Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Debug() 
-                .MinimumLevel.Override("Microsoft", LogEventLevel.Warning) 
-                .Enrich.FromLogContext()
-                .WriteTo.Console() 
-                .WriteTo.Seq("http://localhost:5341") 
-                .CreateLogger();
-        }
+        // it's better to move the level of logs to config files
+        // you can use IConfigurationRoot or IConfiguration and do it better
+        Log.Logger = new LoggerConfiguration()
+            .MinimumLevel.Debug() 
+            .MinimumLevel.Override("Microsoft", LogEventLevel.Warning) 
+            .Enrich.FromLogContext()
+            .WriteTo.Console() 
+            .WriteTo.Seq("http://localhost:5341") 
+            .CreateLogger();
     }
 }

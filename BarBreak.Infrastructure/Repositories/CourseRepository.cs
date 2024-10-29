@@ -1,49 +1,22 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using BarBreak.Core.Entities;
-using BarBreak.Core.Repositories;
-
-namespace BarBreak.Infrastructure.Repositories
+﻿namespace BarBreak.Infrastructure.Repositories
 {
-    public class CourseRepository : ICourseRepository
+    using BarBreak.Core.Course;
+
+    // Focus less on the infrastructure level according to DDD than on the domain model itself
+    // you shouldn't be dependent on how-to's and what-to's, make a unified solution and only support additional requirements via the right interface
+    // uou are using Repository from DDD, but you arn't doing it correctly, as if it were a Mediator
+    // for more information - Eric Evans DDD: Tackling Complexity in the Heart of Software. You must feel that HEART of Software
+    public class CourseRepository(ApplicationDbContext dbContext)
+        : RepositoryBase<int, CourseEntity, ApplicationDbContext>(dbContext),
+            ICourseRepository
     {
-        private readonly ApplicationDbContext _context;
-
-        public CourseRepository(ApplicationDbContext context)
+        public async Task<IEnumerable<CourseEntity>> GetCoursesForUserAsync(int id)
         {
-            _context = context;
-        }
+            var user = await dbContext.Set<UserEntity>().AsNoTracking()
+                .Include(userEntity => userEntity.Courses)
+                .FirstOrDefaultAsync(e => e.Id!.Equals(id));
 
-        public Course GetCourseById(int id)
-        {
-            return _context.Courses.Find(id);
-        }
-
-        public IEnumerable<Course> GetAllCourses()
-        {
-            return _context.Courses.ToList();
-        }
-
-        public void AddCourse(Course course)
-        {
-            _context.Courses.Add(course);
-            _context.SaveChanges();
-        }
-
-        public void UpdateCourse(Course course)
-        {
-            _context.Courses.Update(course);
-            _context.SaveChanges();
-        }
-
-        public void DeleteCourse(int id)
-        {
-            var course = GetCourseById(id);
-            if (course != null)
-            {
-                _context.Courses.Remove(course);
-                _context.SaveChanges();
-            }
+            return user?.Courses is null ? new List<CourseEntity>() : user.Courses;
         }
     }
 }

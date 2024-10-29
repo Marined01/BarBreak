@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using BarBreak.Core.Repositories;
-using BarBreak.Core.DTOs;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using BarBreak.Core.Entities;
+﻿using BarBreak.Core.Course;
 
 
 namespace BarBreak.Application.UseCases
@@ -41,4 +33,3 @@ namespace BarBreak.Application.UseCases
         }
     }
 }
-

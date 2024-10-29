@@ -1,40 +1,30 @@
-﻿using Microsoft.EntityFrameworkCore;
-using BarBreak.Core.Entities;
-using System;
+﻿namespace BarBreak.Infrastructure;
 
-namespace BarBreak.Infrastructure
+public class ApplicationDbContext : DbContext
 {
-    public class ApplicationDbContext : DbContext
+    // Entity datasets
+    public DbSet<UserEntity> Users { get; set; }
+
+    public DbSet<CourseEntity> Courses { get; set; }
+
+    public DbSet<RoleEntity> Roles { get; set; }
+
+    /// Connection configuration
+    /// <inheritdoc/>
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        // Entity datasets
-        public DbSet<User> Users { get; set; }
-        public DbSet<Course> Courses { get; set; }
-        public DbSet<Role> Roles { get; set; }
-
-        // Connection configuration
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        var connectionString = Environment.GetEnvironmentVariable("DB_CONNECTION_STRING");
+        if (string.IsNullOrEmpty(connectionString))
         {
-            var connectionString = Environment.GetEnvironmentVariable("DB_CONNECTION_STRING");
-            if (string.IsNullOrEmpty(connectionString))
-            {
-                throw new InvalidOperationException("DB_CONNECTION_STRING environment variable is not set.");
-            }
-            optionsBuilder.UseNpgsql(connectionString);
+            throw new InvalidOperationException("DB_CONNECTION_STRING environment variable is not set.");
         }
 
-        // Model configuration
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            // Definition of relationships between entities
-            modelBuilder.Entity<User>()
-                .HasMany(u => u.Courses)
-                .WithMany(c => c.Users)
-                .UsingEntity(j => j.ToTable("UserCourses"));
+        optionsBuilder.UseNpgsql(connectionString);
+    }
 
-            modelBuilder.Entity<User>()
-                .HasMany(u => u.Roles)
-                .WithMany(r => r.Users)
-                .UsingEntity(j => j.ToTable("UserRoles"));
-        }
+    // Model configuration
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
     }
 }
