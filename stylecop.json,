@@ -1,0 +1,19 @@
+{
+  "settings": {
+    "documentationRules": {
+      "companyName": "BarBreak",
+      "xmlHeader": false,
+      "fileNamingConvention": "metadata",
+      "documentationHeader": false
+    },
+    "analyzerSettings": {
+      "rules": {
+        "SA1633": false,  // Вимкнення заголовків файлів
+        "SA1600": false,  // Вимкнення документації для елементів коду
+        "SA1200": false,  // Вимкнення вимоги розміщення using всередині namespace
+        "SA1208": false,  // Вимкнення сортування using з System на початку
+        "SA1516": false   // Вимкнення вимоги про пусті рядки між елементами
+      }
+    }
+  }
+}

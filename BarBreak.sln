@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarBreak.Core", "BarBreak.Core\BarBreak.Core.csproj", "{9EC64E3F-E086-47CF-9CBD-D04299B7839D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarBreak.Core", "BarBreak.Core\BarBreak.Core.csproj", "{9EC64E3F-E086-47CF-9CBD-D04299B7839D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarBreak.Application", "BarBreak.Application\BarBreak.Application.csproj", "{EE6AFDCA-F230-408D-8196-709A07FD0586}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarBreak.Application", "BarBreak.Application\BarBreak.Application.csproj", "{EE6AFDCA-F230-408D-8196-709A07FD0586}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarBreak.Infrastructure", "BarBreak.Infrastructure\BarBreak.Infrastructure.csproj", "{FBA83991-A4D3-447F-801D-A2AAD88A68CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarBreak.Infrastructure", "BarBreak.Infrastructure\BarBreak.Infrastructure.csproj", "{FBA83991-A4D3-447F-801D-A2AAD88A68CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarBreak.Presentation", "BarBreak.Presentation\BarBreak.Presentation.csproj", "{67A9E576-EE80-4CBB-AFF6-F7F4F7324B21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarBreak.Presentation", "BarBreak.Presentation\BarBreak.Presentation.csproj", "{67A9E576-EE80-4CBB-AFF6-F7F4F7324B21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D0BF387A-D703-44D1-A084-7A29B4045B23}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		stylecop.json, = stylecop.json,
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

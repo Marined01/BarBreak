@@ -14,5 +14,7 @@ namespace BarBreak.Core.Repositories
         void AddCourse(Course course);
         void UpdateCourse(Course course);
         void DeleteCourse(int id);
+
+        Task<List<Course>> GetCoursesForUserAsync(int userId);
     }
 }
