@@ -17,8 +17,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		stylecop.json, = stylecop.json,
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarBreak.Application.Tests", "BarBreak.Application.Tests\BarBreak.Application.Tests.csproj", "{C412FBF3-E95F-4063-BD0B-0B6E7F6286F0}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{42C0DD84-E465-4CE7-8028-0E9556DCBC8F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarBreak.Core.Tests", "BarBreak.Core.Tests\BarBreak.Core.Tests.csproj", "{B8117FA6-A64A-4722-B1C3-1A33C422BBC3}"
@@ -45,10 +43,6 @@ Global
 		{67A9E576-EE80-4CBB-AFF6-F7F4F7324B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67A9E576-EE80-4CBB-AFF6-F7F4F7324B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67A9E576-EE80-4CBB-AFF6-F7F4F7324B21}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C412FBF3-E95F-4063-BD0B-0B6E7F6286F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C412FBF3-E95F-4063-BD0B-0B6E7F6286F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C412FBF3-E95F-4063-BD0B-0B6E7F6286F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C412FBF3-E95F-4063-BD0B-0B6E7F6286F0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B8117FA6-A64A-4722-B1C3-1A33C422BBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B8117FA6-A64A-4722-B1C3-1A33C422BBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8117FA6-A64A-4722-B1C3-1A33C422BBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -61,7 +55,6 @@ Global
 		SolutionGuid = {181C17A9-8CC1-4E2D-8DF9-EF748EE4C3E5}
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{C412FBF3-E95F-4063-BD0B-0B6E7F6286F0} = {42C0DD84-E465-4CE7-8028-0E9556DCBC8F}
 		{B8117FA6-A64A-4722-B1C3-1A33C422BBC3} = {42C0DD84-E465-4CE7-8028-0E9556DCBC8F}
 	EndGlobalSection
 EndGlobal
