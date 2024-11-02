@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{42C0DD84-E465-4CE7-8028-0E9556DCBC8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarBreak.Core.Tests", "BarBreak.Core.Tests\BarBreak.Core.Tests.csproj", "{B8117FA6-A64A-4722-B1C3-1A33C422BBC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarBreak.Core.Tests", "BarBreak.Core.Tests\BarBreak.Core.Tests.csproj", "{B8117FA6-A64A-4722-B1C3-1A33C422BBC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,10 +51,10 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {181C17A9-8CC1-4E2D-8DF9-EF748EE4C3E5}
-	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B8117FA6-A64A-4722-B1C3-1A33C422BBC3} = {42C0DD84-E465-4CE7-8028-0E9556DCBC8F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {181C17A9-8CC1-4E2D-8DF9-EF748EE4C3E5}
 	EndGlobalSection
 EndGlobal
