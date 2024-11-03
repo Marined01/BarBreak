@@ -1,49 +1,12 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using BarBreak.Core.Entities;
-using BarBreak.Core.Repositories;
-
-namespace BarBreak.Infrastructure.Repositories
+﻿namespace BarBreak.Infrastructure.Repositories
 {
-    public class UserRepository : IUserRepository
-    {
-        private readonly ApplicationDbContext _context;
+    using BarBreak.Core.User;
 
-        public UserRepository(ApplicationDbContext context)
-        {
-            _context = context;
-        }
-
-        public User GetUserById(int id)
-        {
-            return _context.Users.Find(id);
-        }
-
-        public IEnumerable<User> GetAllUsers()
-        {
-            return _context.Users.ToList();
-        }
-
-        public void AddUser(User user)
-        {
-            _context.Users.Add(user);
-            _context.SaveChanges();
-        }
-
-        public void UpdateUser(User user)
-        {
-            _context.Users.Update(user);
-            _context.SaveChanges();
-        }
-
-        public void DeleteUser(int id)
-        {
-            var user = GetUserById(id);
-            if (user != null)
-            {
-                _context.Users.Remove(user);
-                _context.SaveChanges();
-            }
-        }
-    }
+    // Focus less on the infrastructure level according to DDD than on the domain model itself
+    // you shouldn't be dependent on how-to's and what-to's, make a unified solution and only support additional requirements via the right interface
+    // uou are using Repository from DDD, but you arn't doing it correctly, as if it were a Mediator
+    // for more information - Eric Evans DDD: Tackling Complexity in the Heart of Software. You must feel that HEART of Software
+    public class UserRepository(ApplicationDbContext dbContext)
+        : RepositoryBase<int, UserEntity, ApplicationDbContext>(dbContext),
+            IUserRepository;
 }

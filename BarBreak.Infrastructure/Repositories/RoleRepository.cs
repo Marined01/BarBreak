@@ -1,49 +1,12 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using BarBreak.Core.Entities;
-using BarBreak.Core.Repositories;
-
-namespace BarBreak.Infrastructure.Repositories
+﻿namespace BarBreak.Infrastructure.Repositories
 {
-    public class RoleRepository : IRoleRepository
-    {
-        private readonly ApplicationDbContext _context;
+    using BarBreak.Core.Role;
 
-        public RoleRepository(ApplicationDbContext context)
-        {
-            _context = context;
-        }
-
-        public Role GetRoleById(int id)
-        {
-            return _context.Roles.Find(id);
-        }
-
-        public IEnumerable<Role> GetAllRoles()
-        {
-            return _context.Roles.ToList();
-        }
-
-        public void AddRole(Role role)
-        {
-            _context.Roles.Add(role);
-            _context.SaveChanges();
-        }
-
-        public void UpdateRole(Role role)
-        {
-            _context.Roles.Update(role);
-            _context.SaveChanges();
-        }
-
-        public void DeleteRole(int id)
-        {
-            var role = GetRoleById(id);
-            if (role != null)
-            {
-                _context.Roles.Remove(role);
-                _context.SaveChanges();
-            }
-        }
-    }
+    // Focus less on the infrastructure level according to DDD than on the domain model itself
+    // you shouldn't be dependent on how-to's and what-to's, make a unified solution and only support additional requirements via the right interface
+    // uou are using Repository from DDD, but you arn't doing it correctly, as if it were a Mediator
+    // for more information - Eric Evans DDD: Tackling Complexity in the Heart of Software. You must feel that HEART of Software
+    public class RoleRepository(ApplicationDbContext dbContext)
+        : RepositoryBase<int, RoleEntity, ApplicationDbContext>(dbContext),
+            IRoleRepository;
 }
