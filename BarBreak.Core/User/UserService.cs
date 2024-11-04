@@ -2,6 +2,8 @@
 
 using ErrorOr;
 using BarBreak.Core.Entities;
+using BarBreak.Core.DTOs;
+using BarBreak.Core.Repositories;
 using Serilog;
 
 public interface IUserService
@@ -15,6 +17,8 @@ public interface IUserService
     Task<ErrorOr<UserDto>> UpdateUser(UserDto userEntity);
 
     Task DeleteUser(int id);
+
+
 }
 
 public class UserService : IUserService
@@ -48,7 +52,7 @@ public class UserService : IUserService
                 FirstName = user.FirstName,
                 Password = user.Password,
                 LastName = user.LastName,
-                Nickname = user.Nickname,
+                Username = user.Username,
             };
         }
         catch (Exception ex)
@@ -83,10 +87,10 @@ public class UserService : IUserService
                 return UserErrors.ValidationFailed;
             }
 
-            this._logger.Information("Adding new userEntity with nickname: {UserName}", userDto.Nickname);
+            this._logger.Information("Adding new userEntity with username: {UserName}", userDto.Username);
             var user = new UserEntity()
             {
-                Nickname = userDto.Nickname,
+                Username = userDto.Username,
                 Email = userDto.Email,
                 Password = userDto.Password,
                 FirstName = userDto.FirstName,
@@ -99,7 +103,7 @@ public class UserService : IUserService
         }
         catch (Exception ex)
         {
-            this._logger.Error(ex, "Error adding userEntity with nickname: {UserName}", userDto.Nickname);
+            this._logger.Error(ex, "Error adding userEntity with nickname: {UserName}", userDto.Username);
             throw;
         }
     }
@@ -128,7 +132,7 @@ public class UserService : IUserService
             user.Password = userDto.Password;
             user.FirstName = userDto.FirstName;
             user.LastName = userDto.LastName;
-            user.Nickname = userDto.Nickname;
+            user.Username = userDto.Username;
 
             await this._userRepository.Update(user);
 
