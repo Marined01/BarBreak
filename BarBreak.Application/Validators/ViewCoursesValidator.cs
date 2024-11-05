@@ -17,4 +17,3 @@ namespace BarBreak.Application.Validators
         }
     }
 }
-
