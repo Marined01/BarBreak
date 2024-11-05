@@ -1,6 +1,7 @@
 ﻿namespace BarBreak.Infrastructure.Repositories;
 
 using BarBreak.Core.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 public class RepositoryBase<TKey, TEntity, TContext>(TContext dbContext)
     : IRepository<TKey, TEntity>
@@ -45,5 +46,15 @@ public class RepositoryBase<TKey, TEntity, TContext>(TContext dbContext)
 
         dbContext.Set<TEntity>().Remove(entity);
         await dbContext.SaveChangesAsync();
+    }
+   
+    public bool ExistsByEmail(string email)
+    {
+        return dbContext.Set<TEntity>().Any(e => (e as UserEntity)!.Email == email);
+    }
+
+    public bool ExistsByUsername(string username)
+    {
+        return dbContext.Set<TEntity>().Any(e => (e as UserEntity)!.Username == username);
     }
 }

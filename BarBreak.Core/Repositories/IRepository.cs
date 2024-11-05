@@ -15,4 +15,7 @@ public interface IRepository<in TKey, TEntity>
     Task Update(TEntity entity);
 
     Task Delete(TKey id);
+   
+    bool ExistsByEmail(string email);
+    bool ExistsByUsername(string username);
 }
