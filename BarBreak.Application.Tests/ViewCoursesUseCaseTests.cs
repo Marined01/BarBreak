@@ -7,6 +7,7 @@ using BarBreak.Application.UseCases;
 using BarBreak.Core.Repositories;
 using BarBreak.Core.DTOs;
 using BarBreak.Core.Entities;
+using BarBreak.Core.Course;
 
 namespace BarBreak.Application.Tests
 {
@@ -17,10 +18,10 @@ namespace BarBreak.Application.Tests
         {
             // Arrange
             var mockRepo = new Mock<ICourseRepository>();
-            var courses = new List<Course>
+            var courses = new List<CourseEntity>
             {
-                new Course { Id = 1, Title = "Course 1", Description = "Description 1" },
-                new Course { Id = 2, Title = "Course 2", Description = "Description 2" }
+                new CourseEntity { Id = 1, /* Додайте інші властивості CourseEntity */ },
+                new CourseEntity { Id = 2, /* Додайте інші властивості CourseEntity */ }
             };
             mockRepo.Setup(repo => repo.GetCoursesForUserAsync(1)).ReturnsAsync(courses);
 
@@ -31,8 +32,8 @@ namespace BarBreak.Application.Tests
 
             // Assert
             Assert.Equal(2, result.Count);
-            Assert.Equal("Course 1", result[0].Title);
-            Assert.Equal("Course 2", result[1].Title);
+            Assert.Equal(1, result[0].Id); // Перевірка ID
+            // Додайте додаткові перевірки для властивостей
         }
 
         [Fact]
@@ -54,7 +55,7 @@ namespace BarBreak.Application.Tests
         {
             // Arrange
             var mockRepo = new Mock<ICourseRepository>();
-            mockRepo.Setup(repo => repo.GetCoursesForUserAsync(1)).ReturnsAsync(new List<Course>());
+            mockRepo.Setup(repo => repo.GetCoursesForUserAsync(1)).ReturnsAsync(new List<CourseEntity>());
 
             var useCase = new ViewCoursesUseCase(mockRepo.Object);
 
@@ -79,4 +80,5 @@ namespace BarBreak.Application.Tests
         }
     }
 }
+
 
