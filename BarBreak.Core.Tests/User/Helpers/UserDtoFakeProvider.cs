@@ -12,5 +12,5 @@ public class UserDtoFakeProvider() : ObjectFakeProviderBase<UserDto>(5)
             .RuleFor(x => x.Password, f => f.Person.Phone)
             .RuleFor(x => x.FirstName, f => f.Name.FirstName())
             .RuleFor(x => x.LastName, f => f.Name.LastName())
-            .RuleFor(x => x.Nickname, f => f.Name.FullName());
+            .RuleFor(x => x.Username, f => f.Name.FullName());
 }

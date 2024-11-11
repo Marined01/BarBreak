@@ -1,5 +1,6 @@
 namespace BarBreak.Core.Tests.User;
 
+using BarBreak.Core.DTOs;
 using BarBreak.Core.User;
 
 public class UserServiceTests
@@ -71,7 +72,7 @@ public class UserServiceTests
             Password = dto.Password,
             FirstName = dto.FirstName,
             LastName = dto.LastName,
-            Nickname = dto.Nickname,
+            Username = dto.Username,
         };
 
         this._repositoryMock.GetById(Arg.Any<int>()).Returns(oldEnt);
@@ -86,7 +87,7 @@ public class UserServiceTests
         result.Value.Email.Should().Be(updatedUser.Email);
         result.Value.FirstName.Should().Be(updatedUser.FirstName);
         result.Value.LastName.Should().Be(updatedUser.LastName);
-        result.Value.Nickname.Should().Be(updatedUser.Nickname);
+        result.Value.Username.Should().Be(updatedUser.Username);
     }
 
     [Fact]
@@ -114,7 +115,7 @@ public class UserServiceTests
             Password = dto.Password,
             FirstName = dto.FirstName,
             LastName = dto.LastName,
-            Nickname = dto.Nickname,
+            Username = dto.Username,
         };
 
         this._repositoryMock.GetById(Arg.Any<int>())!.Returns(Task.FromResult(profileEntity));
@@ -127,6 +128,81 @@ public class UserServiceTests
         result.Value.Email.Should().Be(dto.Email);
         result.Value.FirstName.Should().Be(dto.FirstName);
         result.Value.LastName.Should().Be(dto.LastName);
-        result.Value.Nickname.Should().Be(dto.Nickname);
+        result.Value.Username.Should().Be(dto.Username);
+    }
+
+    // Тест на вже існуючий email
+    [Fact]
+    public void SignUpGuest_WhenEmailAlreadyExists_ReturnsError()
+    {
+        // Arrange
+        var request = new SignUpRequestDto
+        {
+            Email = "test@example.com",
+            Username = "newUser",
+            Password = "password123",
+            FirstName = "John",
+            LastName = "Doe"
+        };
+
+        _repositoryMock.ExistsByEmail(request.Email).Returns(true);
+
+        // Act
+        var result = _sut.SignUpGuest(request);
+
+        // Assert
+        result.Should().NotBeNull();
+        result.IsSuccess.Should().BeFalse();
+        result.ErrorMessage.Should().Be("A user with this email already exists.");
+    }
+
+    // Тест на вже існуючий username
+    [Fact]
+    public void SignUpGuest_WhenUsernameAlreadyExists_ReturnsError()
+    {
+        // Arrange
+        var request = new SignUpRequestDto
+        {
+            Email = "newuser@example.com",
+            Username = "existingUser",
+            Password = "password123",
+            FirstName = "John",
+            LastName = "Doe"
+        };
+
+        _repositoryMock.ExistsByUsername(request.Username).Returns(true);
+
+        // Act
+        var result = _sut.SignUpGuest(request);
+
+        // Assert
+        result.Should().NotBeNull();
+        result.IsSuccess.Should().BeFalse();
+        result.ErrorMessage.Should().Be("A user with this username already exists.");
+    }
+
+    [Fact]
+    public void SignUpGuest_WhenNewUser_ReturnsSuccess()
+    {
+        // Arrange
+        var request = new SignUpRequestDto
+        {
+            Email = "newuser@example.com",
+            Username = "newUser",
+            Password = "password123",
+            FirstName = "John",
+            LastName = "Doe"
+        };
+
+        _repositoryMock.ExistsByEmail(request.Email).Returns(false);
+        _repositoryMock.ExistsByUsername(request.Username).Returns(false);
+
+        // Act
+        var result = _sut.SignUpGuest(request);
+
+        // Assert
+        result.Should().NotBeNull();
+        result.IsSuccess.Should().BeTrue();
+        result.ErrorMessage.Should().BeNull();
     }
 }

@@ -12,5 +12,5 @@ public class UserDto
 
     public string LastName { get; set; }
 
-    public string Nickname { get; set; }
+    public string Username { get; set; }
 }
