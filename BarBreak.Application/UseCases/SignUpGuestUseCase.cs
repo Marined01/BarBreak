@@ -19,7 +19,7 @@ namespace BarBreak.Application.UseCases
 
         public SignUpResponseDto Execute(SignUpRequestDto request)
         {
-            // Перед початком реєстрації можна виконати додаткову валідацію
+       
             if (string.IsNullOrWhiteSpace(request.Email) || string.IsNullOrWhiteSpace(request.Password))
             {
                 return new SignUpResponseDto
@@ -28,11 +28,7 @@ namespace BarBreak.Application.UseCases
                     ErrorMessage = "Email і пароль є обов’язковими полями."
                 };
             }
-
-            // Виклик методу реєстрації в UserService
             var response = _userService.SignUpGuest(request);
-
-            // Повернення результату реєстрації
             return response;
         }
     }

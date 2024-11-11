@@ -3,6 +3,7 @@
 using ErrorOr;
 using BarBreak.Core.Entities;
 using BarBreak.Core.DTOs;
+using BCrypt.Net;
 using BarBreak.Core.Repositories;
 using Serilog;
 
@@ -35,7 +36,6 @@ public class UserService : IUserService
     // Method to sign up a guest
     public SignUpResponseDto SignUpGuest(SignUpRequestDto request)
     {
-        // Check if a user with the given email already exists
         if (_userRepository.ExistsByEmail(request.Email))
         {
             return new SignUpResponseDto
@@ -44,8 +44,6 @@ public class UserService : IUserService
                 ErrorMessage = "A user with this email already exists."
             };
         }
-
-        // Check if a user with the given username already exists
         if (_userRepository.ExistsByUsername(request.Username))
         {
             return new SignUpResponseDto
@@ -54,21 +52,15 @@ public class UserService : IUserService
                 ErrorMessage = "A user with this username already exists."
             };
         }
-
-        // Create a new user
         var newUser = new UserEntity
         {
             Email = request.Email,
-            Password = HashPassword(request.Password), // Ensure you implement password hashing
+            Password = HashPassword(request.Password),
             FirstName = request.FirstName,
             LastName = request.LastName,
             Username = request.Username
         };
-
-        // Save the user to the database
         _userRepository.Create(newUser);
-        // Consider saving changes if your repository pattern requires it
-
         return new SignUpResponseDto
         {
             IsSuccess = true,
@@ -78,8 +70,7 @@ public class UserService : IUserService
 
     private string HashPassword(string password)
     {
-        // Implement password hashing (e.g., using BCrypt or another algorithm)
-        return password; // Replace with actual hashing logic
+        return BCrypt.HashPassword(password);
     }
     // User
     public async Task<ErrorOr<UserDto>> GetUserById(int id)
