@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.ObjectModel;
+using System.Windows.Input;
 
 namespace BarBreak.Presentation.ViewModels
 {
@@ -14,16 +15,26 @@ namespace BarBreak.Presentation.ViewModels
     public class CoursesViewModel
     {
         public ObservableCollection<Course> Courses { get; set; }
+        public ICommand ToggleFavoriteCommand { get; }
 
         public CoursesViewModel()
         {
-            // Заповнення списку курсів тестовими даними
             Courses = new ObservableCollection<Course>
             {
                 new Course { Name = "Course 1", Description = "Description for Course 1", Image = "image1.png", IsFavorite = true },
                 new Course { Name = "Course 2", Description = "Description for Course 2", Image = "image2.png", IsFavorite = false },
                 // Додати інші курси за потребою
             };
+
+            ToggleFavoriteCommand = new RelayCommand(ToggleFavorite);
+        }
+
+        private void ToggleFavorite(object courseObj)
+        {
+            if (courseObj is Course course)
+            {
+                course.IsFavorite = !course.IsFavorite;
+            }
         }
     }
 }

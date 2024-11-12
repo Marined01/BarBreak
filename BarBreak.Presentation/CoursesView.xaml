@@ -35,7 +35,10 @@
                                 </StackPanel>
 
                                 <!-- Іконка сердечка -->
-                                <Button Content="❤" FontSize="24" Background="Transparent" Foreground="Red" HorizontalAlignment="Right" Margin="0,10,10,10"/>
+                                <Button Command="{Binding DataContext.ToggleFavoriteCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                                        CommandParameter="{Binding}"
+                                        Content="❤" FontSize="24" Background="Transparent" Foreground="Red" 
+                                        HorizontalAlignment="Right" Margin="0,10,10,10"/>
                             </Grid>
                         </Border>
                     </DataTemplate>
