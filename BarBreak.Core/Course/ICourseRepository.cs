@@ -8,4 +8,5 @@ using BarBreak.Core.Repositories;
 public interface ICourseRepository : IRepository<int, CourseEntity>
 {
     Task<IEnumerable<CourseEntity>> GetCoursesForUserAsync(int id);
+    void Save(string courseName, string description, string content);
 }
